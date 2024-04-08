@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Outfit;
+    src: url(font/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(font/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(font/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: #f7e5d8;
+    font-family: Outfit;
+    color: #444340;
+}
+
+span {
+    font-family: Outfit-Bold;
+}
+
+hr {
+    background-color: #f3f3f3;
+    margin: 25px 0px;
+    border: none;
+    height: 2px;
+}
+
+.main_white_bg_div {
+    width: 600px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.egg {
+    width: 600px; 
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
+
+.omelette_heading {
+     /* Attained text in line with the border of image by setting the image width the same as the width of the div tag */
+    margin: 0;
+    font-family: Young-Serif;
+    font-size: 40px; 
+    font-weight: lighter;   
+}
+
+.preparation_card {
+    width: 580px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255,247,251,255);
+    padding: 2px 10px;
+}
+
+#preparation_time {
+    color: rgba(118,39,66,255);
+    font-family: Outfit;
+    font-size: medium;
+}
+
+ul li {
+    margin-bottom: 7px;
+    padding-left: 5px;
+}
+
+ul ::marker {
+    color: rgba(118,39,66,255);
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+ol ::marker {
+    color: #8e452e;
+}
+
+#instructions_heading, #ingredients_heading, #nutritions_heading {
+    color: #8e452e;
+    font-family: Young-Serif;
+    font-weight: lighter;   
+}
+
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 20px;
+    margin: 5px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.amount {
+    color: #8e452e;
+    font-weight: bold;
+}
+
+.attribution {
+    margin: 20px;
+}
+
